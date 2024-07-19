@@ -1,0 +1,16 @@
+---
+version: '3'
+
+services:
+  redis:
+    restart: "unless-stopped"
+    image: "redis:alpine"
+    ports:
+      - 6379:6379
+  csv_to_redis_queue:
+    image: dmml-pink-twins/csv_to_redis_queue
+    build: .
+    environment:
+      - REDIS_HOST=redis
+    volumes:
+      - ./locations.csv:/etc/csv_to_redis_queue/locations.csv

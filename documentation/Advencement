@@ -1,0 +1,27 @@
+Week 2 : 
+  - begining of thinking about our key question 
+  - start of the research of a dataset
+
+Week 3 : 
+  - Deciding the real key question, the context and what we want the project to be
+  - Finding the dataset we need to answer the question
+
+Week 4 : 
+  - Begining of the preprocessing of the dataset (removing the columns that are irrelevent to our problems, changing qualitative data to numerical ones....)
+  - Visualisation of the data
+
+Week 5 : 
+  - End of preprocessing
+  - End of vizualisation
+  - Reflection about the models
+  - Begining of calculating the correlations
+
+Week 7 : 
+  - Continuation of the correlation calculation
+  - Implementation of the random forest model
+  - Implementation of the bayesien model
+
+Week 8 : 
+ - Implementation ok Kmean clustering
+ - Reflexion and trials on the train and the test dataframes
+ - Computation of the confusion matrix of our models

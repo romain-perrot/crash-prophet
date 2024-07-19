@@ -1,0 +1,18 @@
+Road_Type
+{'Roundabout': 0, 'Unknown': 1, 'Dual carriageway': 2, 'One way street': 3, 'Slip road': 4, 'Single carriageway': 5}
+Junction_Control
+{'Automatic traffic signal': 0, 'Stop Sign': 1, 'Giveway or uncontrolled': 2, 'Authorised person': 3, 'None': 4}
+Pedestrian_Crossing-Human_Control
+{'Control by school crossing patrol': 0, 'Control by other authorised person': 1, nan: 2, 'None within 50 metres': 3}
+Pedestrian_Crossing-Physical_Facilities
+{'Central refuge': 0, 'Zebra crossing': 1, 'Footbridge or subway': 2, 'Pedestrian phase at traffic signal junction': 3, nan: 4, 'No physic': 5, 'non-junction pedestrian crossing': 6, 'No physical crossing within 50 meters': 7}
+Light_Conditions
+{'Darkeness: No street lighting': 0, nan: 1, 'Darkness: Street lights present and lit': 2, 'Daylight: Street light present': 3, 'Darkness: Street lights present but unlit': 4, 'Darkness: Street lighting unknown': 5}
+Weather_Conditions
+{'Fog or mist': 0, 'Raining with high winds': 1, 'Raining without high winds': 2, nan: 3, 'Unknown': 4, 'Other': 5, 'Fine with high winds': 6, 'Snowing with high winds': 7, 'Fine without high winds': 8, 'Snowing without high winds': 9}
+Road_Surface_Conditions
+{'Wet/Damp': 0, 'Normal': 1, 'Frost/Ice': 2, 'Snow': 3, nan: 4, 'Dry': 5, 'Flood (Over 3cm of water)': 6}
+Special_Conditions_at_Site
+{'Road surface defective': 0, 'Mud': 1, 'Auto traffic singal out': 2, nan: 3, 'Ol or diesel': 4, 'Roadworks': 5, 'Permanent sign or marking defective or obscured': 6, 'None': 7, 'Auto traffic signal partly defective': 8}
+Carriageway_Hazards
+{'Pedestrian in carriageway (not injured)': 0, 'Other object in carriageway': 1, 'Any animal (except a ridden horse)': 2, nan: 3, 'Involvement with previous accident': 4, 'None': 5, 'Dislodged vehicle load in carriageway': 6}

@@ -1,0 +1,11 @@
+joblib==1.3.2
+keras==2.15.0
+matplotlib==3.8.1
+numpy==1.26.2
+opendatasets==0.1.22
+pandas==2.1.3
+Pillow==10.1.0
+redis==5.0.1
+scikit_learn==1.3.2
+scipy==1.11.4
+seaborn==0.13.0

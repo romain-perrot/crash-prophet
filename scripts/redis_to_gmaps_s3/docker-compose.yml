@@ -1,0 +1,10 @@
+---
+version: '3'
+
+services:
+  redis_to_gmaps_s3:
+    image: dmml-pink-twins/redis-to-gmaps-s3
+    build: .
+    network_mode: host
+    volumes:
+      - ./redis_to_gmaps_s3.yml:/redis_to_gmaps_s3.yml

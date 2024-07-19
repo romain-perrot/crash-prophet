@@ -1,0 +1,29 @@
+#### UK Road Accident Dataset Description
+This dataset allow us to find the position of the accidents, the severity, the connection with some parameters as the weather and so on in the UK.
+
+The UK accident dataset has been published by the department of transport in UK and provides data from 2005 to 2014. The dataset contains more than 1.8 million records with 33 features, however not all of them have a contribution to the analysis. Thus, the retained and useful feature will be explained and thought to be categorised when possible:
+
+-	Accident_Index: Refers to the accident index when using different CSV tables to correctly link them together. The data is nominal and not ordinal as it is only used to make the link between tables and not classify the data according to location or date for example.
+-	Location_Easting_OSGR: Used to determine the location of a point in a projected 2D frame, the unit used is the meter and the value is composed of 10 digits. Eastings are the vertical lines running from the top to bottom and divide the map from west to east. The data is of ratio type as it is referenced to a zero position.
+-	Location_Northing_OSGR: Used to determine the location of a point in a projected 2D frame, the unit used is the meter and the value is composed of 10 digits. Northings are the horizontal lines running from west to east and divide the map from south to north. The data is of ratio type as it is referenced to a zero position.
+-	Longitude: It is a geographic coordinate that specifies the east–west position of a point on the surface of the Earth, the unit used is the degree. The data is of ratio type as it is referenced to a zero position.
+-	Latitude: It is a coordinate that specifies the north–south position of a point on the surface of the Earth, the unit used is the degree. The data is of ratio type as it is referenced to a zero position.
+     Thus, for plotting a point in a 2D frame, it is more convenient to use the Easting Northing system instead of the Longitude Latitude system which is used for spherical systems.
+-	Police_Force: Represents the number of policeman present during the accident report. Factor that does not impact the accident. The data type is a ratio as there is a true reference when there is no policeman.
+-	Accident_Severity: Represents the severity of the accident, the data is already labelled from 1 to 3. 1: Slight, 2: Serious, 3: Fatal. The data type if an interval as there are only 3 ways to categorise the severity of the accident without having a true reference.
+-	Number_of_Vehicles: Refers to the number of vehicles implied in the accident. The data type is a ratio as it counts the number of cars. It could be classified into 3 different categories: 1, 2, 3 with 1 implying 1 car, 2 implying 2 cars, and 3 implying at least 3 cars. There can’t be a no car implied as we focus on car accidents. However, if a value is out of range or non-assigned, the value -1 will be changed.
+-	Number_of_Casualties: Refers to the number of the casualties caused by the accident. This is a ratio data.
+-	Date: Refers to the date of the accident when it occurred to have a timescale of the whole incidents. Is useful to follow the trend of car accident number over time. The date is an interval data as there is no arbitrary reference. The data could be classified into intervals with predefined length interval.
+-	 Day_of_Week: Refers to the day of the week at which the accident occurred. Useful to determine the correlations between car accidents and weekdays. Data ranges from 1 to 7 with 1: Sunday and 7: Saturday. Thus, the data type is originally ordinal but has been converted to an interval data.
+-	Time: Refers to the time at which the accident occurred. Useful to determine the range of time at which car accidents are most probable to occur.  Similar to the date, it is an interval data and can be classified in intervals of specific range.
+-	Local_Authority_(District): Refers to the district in which the car accidents occurred. There are 294 districts in England. Helps to better gathers the car accidents. The data type is a ratio.
+-	Local_Authority_(Highway): Refers to the local highway authority which means the legislative, executive, or governing body of a county, municipal, or other local board or body having authority to enact laws relating to traffic under the constitution and laws of the state. The data type is nominal but not useful for the study.
+-	1st_Road_Class: Classification of the road class ranging from 1 to 6. The data type is an interval.
+-	1st_Road_Number: Refers to the road number on which the accident occurred. The roads are mapped from 1 to 9999. The data type is an interval.
+-	Road_Type: Refers to the type of road, as single carriage, double or other. The data type is nominal.
+-	Speed_limit: Refers to the speed limit of the road at which the accident occurred. However, the data may bias the result as there might not be all equally distributed. Range from 10 to 70mph. The data type is interval.
+-	Light_Conditions Daylight: Refers to the presence of light during the incident as daylight or spotlight. The data is of type nominal and can be classified into categories.
+-	Weather_Conditions: Refers to the weather conditions when the incident occurred as rain, wind, sun, etc. The data is of type nominal and can be classified into categories.
+-	Road_Surface_Conditions: Refers to the road surface condition. As the road surface has an impact on the braking distance, it might have an impact on the result. The data is of type nominal and can be classified into categories. 
+
+Link to dataset: https://www.kaggle.com/datasets/devansodariya/road-accident-united-kingdom-uk-dataset/download?datasetVersionNumber=1

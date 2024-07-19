@@ -1,0 +1,76 @@
+{
+	"Road_Type": {
+			"Unknown": 0,
+			"One way street": 1,
+			"Roundabout": 2,
+			"Dual carriageway": 3,
+			"Slip road": 4,
+			"Single carriageway": 5
+	},
+	"Junction_Control": {
+			"Authorised person": 0,
+			"NaN": 1,
+			"Giveway or uncontrolled": 2,
+			"Automatic traffic signal": 3,
+			"Stop Sign": 4
+	},
+	"Pedestrian_Crossing-Human_Control": {
+			"Control by school crossing patrol": 0,
+			"NaN": 1,
+			"Control by other authorised person": 2,
+			"None within 50 metres": 3
+	},
+	"Pedestrian_Crossing-Physical_Facilities": {
+			"Zebra crossing": 0,
+			"Pedestrian phase at traffic signal junction": 1,
+			"non-junction pedestrian crossing": 2,
+			"Central refuge": 3,
+			"NaN": 4,
+			"Footbridge or subway": 5,
+			"No physical crossing within 50 meters": 6
+	},
+	"Light_Conditions": {
+			"Darkness: Street lighting unknown": 0,
+			"Darkness: Street lights present and lit": 1,
+			"Darkeness: No street lighting": 2,
+			"Darkness: Street lights present but unlit": 3,
+			"Daylight: Street light present": 4
+	},
+	"Weather_Conditions": {
+			"Other": 0,
+			"Unknown": 1,
+			"Raining without high winds": 2,
+			"Raining with high winds": 3,
+			"Fine without high winds": 4,
+			"Fog or mist": 5,
+			"Snowing with high winds": 6,
+			"Snowing without high winds": 7,
+			"Fine with high winds": 8
+	},
+	"Road_Surface_Conditions": {
+			"Wet/Damp": 0,
+			"Normal": 1,
+			"Flood (Over 3cm of water)": 2,
+			"Snow": 3,
+			"Frost/Ice": 4,
+			"Dry": 5
+	},
+	"Special_Conditions_at_Site": {
+			"Ol or diesel": 0,
+			"Permanent sign or marking defective or obscured": 1,
+			"Road surface defective": 2,
+			"NaN": 3,
+			"Auto traffic singal out": 4,
+			"Mud": 5,
+			"Roadworks": 6,
+			"Auto traffic signal partly defective": 7
+	},
+	"Carriageway_Hazards": {
+			"NaN": 0,
+			"Other object in carriageway": 1,
+			"Involvement with previous accident": 2,
+			"Dislodged vehicle load in carriageway": 3,
+			"Pedestrian in carriageway (not injured)": 4,
+			"Any animal (except a ridden horse)": 5
+	}
+}
