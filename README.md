@@ -5,7 +5,7 @@
 ## Group Members:
 
 1. BELPAIRE Baudoin - @BaudFrag        - H00445613
-2. LARDEAU Valentin - @ValentinLardeau - H00453864
+2. LARDEAU Valentin - @valentinlardeau - H00453864
 3. PERROT Romain    - @romain-perrot   - H00448974
 4. SANTE Guilhem    - @guilhem-sante   - H00447741
 5. WALDVOGEL Elliot - @elliotwld       - H00447733
